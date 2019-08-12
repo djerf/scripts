@@ -1,0 +1,2 @@
+start /wait PowerShell.exe -ExecutionPolicy UnRestricted -command "& { . C:\Windows\Temp\domainjoin\source\domainjoin.ps1; check }"
+start /wait PowerShell.exe -ExecutionPolicy UnRestricted -command "& { . C:\Windows\Temp\domainjoin\source\domainjoin.ps1; finish }"
